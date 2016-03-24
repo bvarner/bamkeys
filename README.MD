@@ -11,34 +11,38 @@ It's a pretty simple concept, really.
 
 ## Installation Instructions
 
-1.) Copy the BamKeysFilter into
-	/boot/home/config/add-ons/input_server/filters
-	Or just drop the file on the linked folder.
-2.) Restart the input_server like so
-	/boot/beos/system/servers/input_server -q
-	Or just double-click the Double-Click Me file.
+1. Copy the BamKeysFilter into `/boot/home/config/add-ons/input_server/filters`
+2. Restart the input_server like so `/boot/beos/system/servers/input_server -q`
 
 ## Configuring
 Open up the BamKeys Application (it's a preference tool)
 At this point, you'll see a little display with a 3x3 grid, a check box, two pop up menus, and a bunch of key cap looking things.
 
 The default key mappings for this 3x3 grid are: the left "command" (or alt) key + numeric keypad 1 through 9 (with NumLock ON).
+If you'd like to change these settings you can...
 
-To change these settings:
+### Using the mouse:
 
-Using the mouse:
+* Click the zone on the little display you want to change. It will darken. 
+* Press (and release) the key combination you want to use. 
+* Click the zone again to de-select it. 
 
-Click the zone on the little display you want to change. It will darken. Press the key combination you want to use. Click the zone again to de-select it. Notice that the key caps things on the side will reflect the keys you've pressed (once you let go of them that is).
+**Notice that the key caps in the preference panel will reflect the keys you've pressed (once you let go of them).**
 
-Using the keyboard:
+### Using the keyboard:
 
-Tab until the screen is selected. Press the space-bar. A zone will darken in the grid. You can use the arrow keys to change the selected zone. Pressing a keyboard shortcut will set the hotkey for that zone. Pressing space bar will unselect all zones.
+* Tab until the screen is selected.
+* Press the space-bar. A zone will darken in the grid. 
+* You can use the arrow keys to change the selected zone. 
+* Pressing (and releasing) a keyboard shortcut will set the hotkey for that zone. 
+* Pressing space bar will unselect all zones.
 
-I should also mention (there's no interface for setting this yet) but if you press (and hold) the left "command" (alt) and the "enter" from the numeric keypad you'll probably like what you see.
+I should also mention (there's no interface for setting this yet) but if you press (and hold) the left "command" (alt) and the "enter" from the numeric keypad you'll probably like what you see -- an overlay grid showing how your screen is spatially divided.
 
 ## History:
 
 Back in the day I was chatting with Jonathan Thompson on BeShare about some features he planned for a BeOS IDE he was planning, named Project X.
+
 He mentioned somethings about spatially mapping keyboard navigation to windows on screen. The more he described it, the more I thought, "This should be more than just Project X... This should be OS-Wide." Keep in mind that OS X's Expose feature was pretty hot at the time.
 
 I did an input_server device addon a few years earlier and really enjoyed it. At the time I was talking with Jonathan, I was working on implementing keyboard handling and the focus sub-system of the AWT for the Java port to BeOS.. so this was all intersecting with interests and problems I was already working with. I hadn't do anything with keyboard events in BeOS before, and this sounded like a great project to get my feet wet with. I volunteerd (or did I demand?) to write the code and see if it could work well.
