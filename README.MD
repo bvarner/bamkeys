@@ -18,8 +18,7 @@ It's a pretty simple concept, really.
 Open up the BamKeys Application (it's a preference tool)
 At this point, you'll see a little display with a 3x3 grid, a check box, two pop up menus, and a bunch of key cap looking things.
 
-![BamKeys Preferences]
-(https://raw.githubusercontent.com/bvarner/bamkeys/master/BamKeys_01.png)
+![BamKeys Preferences](https://raw.githubusercontent.com/bvarner/bamkeys/master/BamKeys_01.png)
 
 The default key mappings for this 3x3 grid are: the left "command" (or alt) key + numeric keypad 1 through 9 (with NumLock ON).
 If you'd like to change these settings you can...
@@ -42,8 +41,7 @@ If you'd like to change these settings you can...
 
 I should also mention (there's no interface for setting this yet) but if you press (and hold) the left "command" (alt) and the "enter" from the numeric keypad you'll probably like what you see -- an overlay grid showing how your screen is spatially divided.
 
-![BamKeys Overlay]
-(https://raw.githubusercontent.com/bvarner/bamkeys/master/BamKeys_02.png)
+![BamKeys Overlay](https://raw.githubusercontent.com/bvarner/bamkeys/master/BamKeys_02.png)
 
 ## History:
 
